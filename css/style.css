@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+
+
+
+.main{ width:calc(100% - 250px); 
+    padding: 0 50px; 
+    margin-left: 250px;
+    margin-top: 56px; 
+    padding-top: 20px;
+}
+a{text-decoration: none;}
+.page_main_heading {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+.code{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #dedede;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    width: 90%;
+    margin: 50px auto;
+    font-weight: 600;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+.leftMenu { 
+    width: 250px; 
+    height: 100vh;   
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background: #f1f1f1;
+    position: fixed;
+    top: 56px;
+}
+.leftMenu h2{ font-size: 20px;}
+.list-group-item {background-color: initial;padding: 5px 15px;}

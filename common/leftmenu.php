@@ -1,42 +1,43 @@
+<?php $path = "http://localhost/w3tutorials/tutorial/"?>
 <div  class="leftMenu">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"> <h2> HTML Tutorial </h2></li>
-                <li class="list-group-item"> <a class="" href="html-home.php" > HTML HOME </a></li>
-                <li class="list-group-item"> <a class="" href="html-introduction.php" > HTML Introduction </a></li>
-                <li class="list-group-item"> <a class="" href="html-editor.php" > HTML Editors </a></li>
-                <li class="list-group-item"> <a class="" href="html-basic.php"> HTML Basic </a></li>
-                <li class="list-group-item"> <a class="" href="html-elements.php" > HTML Elements </a></li>
-                <li class="list-group-item"> <a class="" href="html-attributes.php" > HTML Attributes </a></li>
-                <li class="list-group-item"> <a class="" href="html-headings.php" > HTML Headings </a></li>
-                <li class="list-group-item"> <a class="" href="html-paragraphs.php" > HTML Paragraphs </a></li>
-                <li class="list-group-item"> <a class="" href="html-styles.php" > HTML Styles </a></li>
-                <li class="list-group-item"> <a class="" href="html-formatting.php" > HTML Formatting </a></li>
-                <li class="list-group-item"> <a class="" href="html-quotations.php" > HTML Quotations </a></li>
-                <li class="list-group-item"> <a class="" href="html-comments.php" > HTML Comments </a></li>
-                <li class="list-group-item"> <a class="" href="html-colors.php" > HTML Colors </a></li>
-                <li class="list-group-item"> <a class="" href="html-css.php" > HTML CSS </a></li>
-                <li class="list-group-item"> <a class="" href="html-links.php" > HTML Links </a></li>
-                <li class="list-group-item"> <a class="" href="html-images.php" > HTML Images </a></li>
-                <li class="list-group-item"> <a class="" href="html-tables.php" > HTML Tables </a></li>
-                <li class="list-group-item"> <a class="" href="html-lists.php" > HTML Lists </a></li>
-                <li class="list-group-item"> <a class="" href="html-block-inline.php" > HTML Block & Inline </a></li>
-                <li class="list-group-item"> <a class="" href="html-classes.php" > HTML Classes </a></li>
-                <li class="list-group-item"> <a class="" href="html-id.php" > HTML Id </a></li>
-                <li class="list-group-item"> <a class="" href="html-iframes.php" > HTML Iframes </a></li>
-                <li class="list-group-item"> <a class="" href="html-javascript.php" > HTML JavaScript </a></li>
-                <li class="list-group-item"> <a class="" href="html-file-path.php" > HTML File Paths </a></li>
-                <li class="list-group-item"> <a class="" href="html-head.php" > HTML Head </a></li>
-                <li class="list-group-item"> <a class="" href="html-layout.php" > HTML Layout </a></li>
-                <li class="list-group-item"> <a class="" href="html-responsive.php" > HTML Responsive </a></li>
-                <li class="list-group-item"> <a class="" href="html-computercode.php" > HTML Computercode </a></li>
-                <li class="list-group-item"> <a class="" href="html-sementics.php" > HTML Semantics </a></li>
-                <li class="list-group-item"> <a class="" href="html-style-guide.php" > HTML Style Guide </a></li>
-                <li class="list-group-item"> <a class="" href="html-entities.php" > HTML Entities </a></li>
-                <li class="list-group-item"> <a class="" href="html-symbols.php" > HTML Symbols </a></li>
-                <li class="list-group-item"> <a class="" href="html-emojis.php" > HTML Emojis </a></li>
-                <li class="list-group-item"> <a class="" href="html-charset.php" > HTML Charset </a></li>
-                <li class="list-group-item"> <a class="" href="html-url-encode.php" > HTML URL Encode </a></li>
-                <li class="list-group-item"> <a class="" href="html-xhtml.php" > HTML vs. XHTML </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-home.php' ?>" > HTML HOME </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-introduction.php' ?>" > HTML Introduction </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-editor.php' ?>" > HTML Editors </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-basic.php' ?>"> HTML Basic </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-elements.php' ?>" > HTML Elements </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-attributes.php' ?>" > HTML Attributes </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-headings.php' ?>" > HTML Headings </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-paragraphs.php' ?>" > HTML Paragraphs </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-styles.php' ?>" > HTML Styles </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-formatting.php' ?>" > HTML Formatting </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-quotations.php' ?>" > HTML Quotations </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-comments.php' ?>" > HTML Comments </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-colors.php' ?>" > HTML Colors </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-css.php' ?>" > HTML CSS </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-links.php' ?>" > HTML Links </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-images.php' ?>" > HTML Images </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-tables.php' ?>" > HTML Tables </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-lists.php' ?>" > HTML Lists </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-block-inline.php' ?>" > HTML Block & Inline </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-classes.php' ?>" > HTML Classes </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-id.php' ?>" > HTML Id </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-iframes.php' ?>" > HTML Iframes </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-javascript.php' ?>" > HTML JavaScript </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-file-path.php' ?>" > HTML File Paths </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-head.php' ?>" > HTML Head </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-layout.php' ?>" > HTML Layout </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-responsive.php' ?>" > HTML Responsive </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-computercode.php' ?>" > HTML Computercode </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-sementics.php' ?>" > HTML Semantics </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-style-guide.php' ?>" > HTML Style Guide </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-entities.php' ?>" > HTML Entities </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-symbols.php' ?>" > HTML Symbols </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-emojis.php' ?>" > HTML Emojis </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-charset.php' ?>" > HTML Charset </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-url-encode.php' ?>" > HTML URL Encode </a></li>
+                <li class="list-group-item"> <a class="" href="<?php echo $path . 'html-xhtml.php' ?>" > HTML vs. XHTML </a></li>
 
                 <li class="list-group-item"> <h2> HTML Forms </h2></li>
                 <li class="list-group-item"> <a class="" href="html-forms.php" > HTML Forms </a></li>
